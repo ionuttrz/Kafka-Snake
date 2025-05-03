@@ -1,0 +1,13 @@
+<div class="game-container">
+    <div class="controls">
+      <input type="text" [(ngModel)]="username" placeholder="Enter your username" />
+      <button (click)="startGame()" [disabled]="!username">Start Game</button>
+    </div>
+  
+    <canvas #gameCanvas width="400" height="400"></canvas>
+  
+    <div *ngIf="score !== null" class="score">
+      Score: {{ score }}
+    </div>
+  </div>
+  
