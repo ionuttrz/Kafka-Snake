@@ -90,7 +90,7 @@ ng serve --open
   - Control the snake and earn points
   - Press End to finish the session
 
-- All gameplay events will be streamed to Kafka and logged in real-time by the backend consumer.
+All gameplay events will be streamed to Kafka and logged in real-time by the backend consumer.
 
 
 
